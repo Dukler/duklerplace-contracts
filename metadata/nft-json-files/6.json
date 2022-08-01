@@ -1,0 +1,16 @@
+{
+    "name" : "Watercolor hill",
+    "description": "The Watercolor hill it's a living, breathing, thinking, moving, biome that is just as old as time itself. It can willingly move across the whole timeverse, many ancient creatures and special secrets live in it.",
+    "image":"https://ipfs.infura.io/ipfs/QmanzpgpWwV51e4SKtjffhsiyZsVsooybMnhe77zGQf1iF/6.jpg",
+    "attributes":[
+        {
+            "display_type": "number",
+            "trait_type": "Generation",
+            "value": 1
+        },
+        {
+            "trait_type": "Biome",
+            "value": "Living timehill"
+        }
+    ]
+}

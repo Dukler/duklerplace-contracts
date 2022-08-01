@@ -1,0 +1,16 @@
+{
+    "name" : "Iris land",
+    "description": "The Iris land is the only physical place in the timeverse where multiple universes collide and physical beings can visit the timeverse.",
+    "image":"https://ipfs.infura.io/ipfs/QmanzpgpWwV51e4SKtjffhsiyZsVsooybMnhe77zGQf1iF/4.jpg",
+    "attributes":[
+        {
+            "display_type": "number",
+            "trait_type": "Generation",
+            "value": 1
+        },
+        {
+            "trait_type": "Biome",
+            "value": "Swamp"
+        }
+    ]
+}

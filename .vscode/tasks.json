@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "runBlockchain",
+        "isBackground": false,
+        "dependsOn": ["runNode", "deployLocal"],
+        "problemMatcher": [],
+        "group": {
+            "kind": "build",
+            "isDefault": true
+        }
+      },
+      {
+        "label": "runNode",
+        "type": "shell",
+        "command": "npx hardhat node"
+      },
+      {
+        "label": "deployLocal",
+        "type": "shell",
+        "command": "npx hardhat run scripts/deploy.js --network localhost"
+      },
+      {
+        "label": "deployRinkeby",
+        "type": "shell",
+        "command": "npx hardhat run scripts/deploy.js --network localhost"
+      }
+    ]
+  }

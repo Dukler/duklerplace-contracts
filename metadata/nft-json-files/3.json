@@ -1,0 +1,16 @@
+{
+    "name" : "Imaginary beast",
+    "description": "A mythical beast that can project itself on the time plane only if sometime is thinking about it, and gathers strenght after every thought.",
+    "image":"https://ipfs.infura.io/ipfs/QmanzpgpWwV51e4SKtjffhsiyZsVsooybMnhe77zGQf1iF/3.jpg",
+    "attributes":[
+        {
+            "display_type": "number",
+            "trait_type": "Generation",
+            "value": 1
+        },
+        {
+            "trait_type": "Entity type",
+            "value": "Beast"
+        }
+    ]
+}

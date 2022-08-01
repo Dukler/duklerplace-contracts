@@ -1,0 +1,16 @@
+{
+    "name" : "Bubblegum axe",
+    "description": "Unbreakable axe made of magic bubblegum from hell.",
+    "image":"https://ipfs.infura.io/ipfs/QmanzpgpWwV51e4SKtjffhsiyZsVsooybMnhe77zGQf1iF/1.jpg",
+    "attributes":[
+        {
+            "display_type": "number",
+            "trait_type": "Generation",
+            "value": 1
+        },
+        {
+            "trait_type": "Weapon",
+            "value": "True"
+        }
+    ]
+}

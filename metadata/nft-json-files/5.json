@@ -1,0 +1,20 @@
+{
+    "name" : "Psychic death",
+    "description": "Such a time beast only exists in the Iris land, guarding it from unwanted visitors, this entity possess unfathomable power being able to instantly erase from existance every creature who dares touch the Iris land, just by thinking about it.",
+    "image":"https://ipfs.infura.io/ipfs/QmanzpgpWwV51e4SKtjffhsiyZsVsooybMnhe77zGQf1iF/5.jpg",
+    "attributes":[
+        {
+            "display_type": "number",
+            "trait_type": "Generation",
+            "value": 1
+        },
+        {
+            "trait_type": "Entity type",
+            "value": "Beast"
+        },
+        {
+            "trait_type": "Power",
+            "value": "Unlimited"
+        }
+    ]
+}

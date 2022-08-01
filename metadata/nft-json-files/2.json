@@ -1,0 +1,16 @@
+{
+    "name" : "Flair lair",
+    "description": "One of the oldest lairs found by the time entities in the whole timeverse.",
+    "image":"https://ipfs.infura.io/ipfs/QmanzpgpWwV51e4SKtjffhsiyZsVsooybMnhe77zGQf1iF/2.jpg",
+    "attributes":[
+        {
+            "display_type": "number",
+            "trait_type": "Generation",
+            "value": 1
+        },
+        {
+            "trait_type": "Biome",
+            "value": "Time cave"
+        }
+    ]
+}
