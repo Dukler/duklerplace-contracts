@@ -1,7 +1,6 @@
 require("@nomiclabs/hardhat-waffle");
+const keys = require('./keys.json')
 
-const ALCHEMY_API_KEY = "hQgRBEblOt2CEl_7kNaQUjnc3UTkwVyG";
-const GOERLI_PRIVATE_KEY = "f8677fb571faaea223dfbe8cd2f6d5c348bf01189c4dc8ddaa5e654bdfbaa8ac";
 // This is a sample Hardhat task. To learn how to create your own go to
 // https://hardhat.org/guides/create-task.html
 task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
@@ -22,8 +21,8 @@ module.exports = {
   solidity: "0.8.4",
   networks: {
     goerli: {
-      url: `https://eth-goerli.alchemyapi.io/v2/${ALCHEMY_API_KEY}`,
-      accounts: [GOERLI_PRIVATE_KEY]
+      url: `https://eth-goerli.alchemyapi.io/v2/${keys.ALCHEMY_API_KEY}`,
+      accounts: [keys.GOERLI_PRIVATE_KEY]
     }
   }
 };
